@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eff0ef"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </GridView>
+
+    <LinearLayout
+        android:layout_marginLeft="10dip"
+        android:id="@+id/lly_bot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hint: " />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/btn_default_normal"
+                android:gravity="center"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/btn_default_normal"
+                android:gravity="center"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/btn_default_normal"
+                android:gravity="center"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/btn_default_normal"
+                android:gravity="center"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_marginLeft="20dip"
+                android:background="@drawable/btn_default_normal"
+                android:gravity="center"
+                android:text="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Residue: " />
+
+            <TextView
+                android:id="@+id/err_times"
+                android:layout_marginLeft="20dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
